@@ -1,6 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import App from './pages/App/index' //Se cambia la ruta para redireccionar a lo nuestro
+import App from './Pages/App/index' //Se cambia la ruta para redireccionar a lo nuestro
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

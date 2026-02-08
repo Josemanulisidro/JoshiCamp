@@ -1,6 +1,6 @@
 import {useRoutes, BrowserRouter } from 'react-router-dom'
 import Home from '../Home'
-import NavBar from '../../Components/Navbar'
+import Navbar from '../../Components/Navbar'
 import Footer from '../../Components/Footer'
 import Loader from '../../Components/Loader'
 
@@ -44,7 +44,7 @@ const App = () =>{
 
     return(
         <BrowserRouter>
-            <NavBar />
+            <Navbar />
             <AppRoutes />
             <Footer />
         </BrowserRouter>
