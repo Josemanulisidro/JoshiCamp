@@ -1,0 +1,8 @@
+.card-newEvnet{
+    border: solid 2px blue;
+    display: flex;
+}
+.container-text-new{
+    padding: 2px;
+    text-align: center;
+}

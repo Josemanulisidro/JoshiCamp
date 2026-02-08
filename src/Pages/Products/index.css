@@ -1,0 +1,9 @@
+/* LAPTOP  */
+@media (min-width: 1024px) {
+  .products-posicion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: solid 5px blue; */
+  }
+}

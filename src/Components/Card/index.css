@@ -1,0 +1,33 @@
+/* Diseño de card  */
+.conteiner-card{
+    padding: 2%;  
+    transition: transform 1.5s;
+}
+.conteiner-content{
+    padding: 1%;
+}
+.conteiner-card:hover .conteiner-content{
+    transform: translateY(-10px);
+}
+.titulos{
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: solid 2px orange; */
+    border-top: solid 4px orange;
+    border-left: solid 4px orange;
+    border-right: solid 4px orange;
+}
+.titulos h1{
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+}
+
+/* LAPTOP  */
+@media (min-width: 1024px) {
+    .titulos h1{
+        font-size: 50px;
+    }
+}
