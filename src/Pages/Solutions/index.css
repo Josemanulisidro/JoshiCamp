@@ -27,7 +27,7 @@
 
   .container-solution{
     width: 100%;
-    height: 20vh;
+    height: 30vh;
     perspective: 8px;
     overflow-x: hidden;
   }
@@ -49,7 +49,7 @@
     height: auto;
     transform: translateZ(4px) scale(0.5);
     transform-origin: 50%;
-    top: 135px;
+    top: 142px;
   }
   .txt-solution p{
     color: rgb(255, 255, 255);
@@ -69,22 +69,22 @@
     width: 100%;
     height: auto;
     transform: translateZ(2px) scale(0.75);
-    top: 80px;
+    top: 50px;
   }
   .cont-solution-titulo2 h1{
     text-align: center;
-    font-size: 60px;
+    font-size: 20px;
   }
   .txt-solution2{
     width: 100%;
     height: auto;
     transform: translateZ(4px) scale(0.5);
     transform-origin: 50%;
-    top: 200px;
+    top: 110px;
 }
   .txt-solution2 p{
     color: rgb(255, 255, 255);
-    font-size: 50px;
+    font-size: 15px;
     text-align: center;
   }
 
@@ -93,11 +93,11 @@
     height: auto;
     transform: translateZ(4px) scale(0.5);
     transform-origin: 50%;
-    top: 500px;
+    top: 160px;
   }
   .cont-solution-titulo3 h1{
     text-align: center;
-    font-size: 60px;
+    font-size: 20px;
     color: white;
   }
   .txt-solution3{
@@ -105,11 +105,11 @@
     height: auto;
     transform: translateZ(4px) scale(0.5);
     transform-origin: 50%;
-    top: 550px;
+    top: 170px;
 }
   .txt-solution3 p{
     color: rgb(255, 255, 255);
-    font-size: 50px;
+    font-size: 15px;
     text-align: center;
   }
 
@@ -118,11 +118,11 @@
     height: auto;
     transform: translateZ(4px) scale(0.5);
     transform-origin: 50%;
-    top: 800px;
+    top: 220px;
   }
   .cont-solution-titulo4 h1{
     text-align: center;
-    font-size: 60px;
+    font-size: 20px;
     color: white;
   }
   .txt-solution4{
@@ -130,11 +130,11 @@
     height: auto;
     transform: translateZ(4px) scale(0.5);
     transform-origin: 50%;
-    top: 850px;
+    top: 230px;
   }
   .txt-solution4 p{
     color: rgb(255, 255, 255);
-    font-size: 50px;
+    font-size: 15px;
     text-align: center;
   }
 
@@ -143,11 +143,11 @@
     height: auto;
     transform: translateZ(4px) scale(0.5);
     transform-origin: 50%;
-    top: 1040px;
+    top: 285px;
   }
   .cont-solution-titulo5 h1{
     text-align: center;
-    font-size: 60px;
+    font-size: 20px;
     color: white;
   }
   .txt-solution5{
@@ -155,11 +155,11 @@
     height: auto;
     transform: translateZ(4px) scale(0.5);
     transform-origin: 50%;
-    top: 1090px;
+    top: 300px;
 }
   .txt-solution5 p{
     color: rgb(255, 255, 255);
-    font-size: 50px;
+    font-size: 15px;
     text-align: center;
   }
 
@@ -171,6 +171,47 @@
     .txt-solution{
       top: 175px;
     }
+
+    .cont-solution-titulo2{
+      top: 60px;
+    }
+    .cont-solution-titulo2 h1{
+      font-size: 25px;
+    }
+    .txt-solution2{
+      top: 140px;
+    }
+
+    .cont-solution-titulo3{
+      top: 200px;
+    }
+    .cont-solution-titulo3 h1{
+      font-size: 25px;
+    }
+    .txt-solution3{
+      top: 220px;
+    }
+
+    .cont-solution-titulo4{
+      top: 275px;
+    }
+    .cont-solution-titulo4 h1{
+      font-size: 25px;
+    }
+    .txt-solution4{
+      top: 330px;
+    }
+
+    .cont-solution-titulo5{
+      top: 370px;
+    }
+    .cont-solution-titulo5 h1{
+      font-size: 25px;
+    }
+     .txt-solution5{
+      top: 390px;
+    }
+
   }
 
    @media (min-width: 425px) {
@@ -185,6 +226,49 @@
       }
     .txt-solution p{
         font-size: 20px;
+    }
+
+    .txt-solution2{
+      top: 125px;
+    }
+    .cont-solution-titulo2 h1{
+      font-size: 30px;
+    }
+     .txt-solution2 p{
+      font-size: 20px;
+    }
+
+    .cont-solution-titulo3 h1{
+      font-size: 30px;
+    }
+    .txt-solution3 p{
+      font-size: 20px;
+    }
+    
+    .cont-solution-titulo4{
+      top: 285px;
+    }
+    .txt-solution4{
+      top: 340px;
+    }
+    .cont-solution-titulo4 h1{
+      font-size: 30px;
+    }
+     .txt-solution4 p{
+      font-size: 20px;
+    }
+
+    .cont-solution-titulo5{
+      top: 410px;
+    }
+    .txt-solution5{
+      top: 440px;
+    }
+    .cont-solution-titulo5 h1{
+      font-size: 30px;
+    }
+    .txt-solution5 p{
+      font-size: 20px;
     }
    }
 

@@ -18,6 +18,7 @@ import porton_2 from "../../../img/porton_2.mp4"
 
 import instalacion_8 from "../../../img/instalacion_888.WebP"
 
+
 import product_1 from "../../../img/product_1.WebP"
 import product_2 from "../../../img/product_2.WebP"
 import product_3 from "../../../img/product_3.WebP"
