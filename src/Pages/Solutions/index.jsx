@@ -18,7 +18,6 @@ import porton_3 from "../../../img/porton_3.mp4"
 import "./index.css";
 
 
-
 const Solutions = () =>{
 
     return(
