@@ -20,7 +20,7 @@ import instalacion_8 from "../../../img/instalacion_888.WebP"
 
 import product_1 from "../../../img/product_1.webp"
 import product_2 from "../../../img/product_2.webp"
-import product_3 from "../../../img/product_3.webp"
+import product_3 from "../../../img/Product_3.webp"
 import product_4 from "../../../img/product_4.webp"
 import product_5 from "../../../img/product_5.webp"
 import product_6 from "../../../img/product_6.webp"
