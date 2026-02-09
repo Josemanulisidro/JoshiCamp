@@ -3,6 +3,7 @@ import Card from "../../Components/Card"
 import ConteinerCenter from "../../Components/ConteinerCenter"
 
 import "./index.css";
+
 import product_1 from "../../../img/product_1.WebP"
 import product_2 from "../../../img/product_2.WebP"
 import product_3 from "../../../img/product_3.WebP"
