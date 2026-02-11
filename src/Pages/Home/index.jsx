@@ -19,17 +19,17 @@ import porton_2 from "../../../img/porton_2.mp4"
 import instalacion_8 from "../../../img/instalacion_888.WebP"
 
 
-import product_1 from "../../../img/product_1.WebP"
-import product_2 from "../../../img/product_2.WebP"
-import product_3 from "../../../img/product_3.WebP"
-import product_4 from "../../../img/product_4.WebP"
-import product_5 from "../../../img/product_5.WebP"
-import product_6 from "../../../img/product_6.WebP"
-import product_7 from "../../../img/product_7.WebP"
-import product_8 from "../../../img/product_8.WebP"
-import product_9 from "../../../img/product_9.WebP"
-import product_10 from "../../../img/product_10.WebP"
-import product_11 from "../../../img/product_11.WebP"
+import product_1 from "../../../img/product_1.webp"
+import product_2 from "../../../img/product_2.webp"
+import product_3 from "../../../img/Product_3.webp"
+import product_4 from "../../../img/product_4.webp"
+import product_5 from "../../../img/product_5.webp"
+import product_6 from "../../../img/product_6.webp"
+import product_7 from "../../../img/product_7.webp"
+import product_8 from "../../../img/product_8.webp"
+import product_9 from "../../../img/product_9.webp"
+import product_10 from "../../../img/product_10.webp"
+import product_11 from "../../../img/product_11.webp"
 
 const Home = () =>{
 
