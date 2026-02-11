@@ -1,14 +1,14 @@
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 
-import logo from "../../../img/logo.jpg"
+import logo from "../../../img/logo.jpeg"
 
 const Navbar = () => {
     return (
         <nav className="navbar">
             <div className="logo">
                 <NavLink to="/" end>
-                      <img src={logo} alt="logo-icon" className="h-20" />
+                      <img src={logo} alt="logo-icon" className="h-20 rounded-sm" />
                     </NavLink>
             </div>
 

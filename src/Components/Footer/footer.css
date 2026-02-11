@@ -14,7 +14,7 @@
     align-items: center;
     padding: 1rem 2rem;
     background-color: rgb(42, 131, 163);
-    border: solid 5px red;
+    /* border: solid 5px red; */
 }
 
 .nav-links-footer{
