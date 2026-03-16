@@ -4,7 +4,7 @@ body{
 /* SECCION 1 */
 .home-section-first{
   position: relative;
-  min-height: 50vh;
+  min-height: 40vh;
   overflow: hidden;
   display: flex;
   margin: 0;
@@ -68,7 +68,7 @@ body{
   align-items: center;
   justify-content: center;
   margin: 0;
-  border: solid 5px red;
+  /* border: solid 5px red; */
 }
 
 /* SECCION 3 */

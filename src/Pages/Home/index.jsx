@@ -107,7 +107,7 @@ const Home = () =>{
 
       <Card titulo={"Portones automaticos"}>
         <ConteinerCenter>
-          <video width="640" height="480" controls className="porton">
+          <video width="640" height="480" controls className="porton" data-aos="fade-down-right">
             <source src={porton_2} type="video/mp4" />
           </video>
         </ConteinerCenter>
