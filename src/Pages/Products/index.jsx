@@ -4,23 +4,23 @@ import ConteinerCenter from "../../Components/ConteinerCenter"
 
 import "./index.css";
 
-import product_1 from "../../../img/product_1.webp"
-import product_2 from "../../../img/product_2.webp"
-import product_3 from "../../../img/Product_3.webp"
-import product_4 from "../../../img/product_4.webp"
-import product_5 from "../../../img/product_5.webp"
-import product_6 from "../../../img/product_6.webp"
-import product_7 from "../../../img/product_7.webp"
-import product_8 from "../../../img/product_8.webp"
-import product_9 from "../../../img/product_9.webp"
-import product_10 from "../../../img/product_10.webp"
-import product_11 from "../../../img/product_11.webp"
+import product_1 from "../../../img/product_1.WebP"
+import product_2 from "../../../img/product_2.WebP"
+import product_3 from "../../../img/product_3.WebP"
+import product_4 from "../../../img/product_4.WebP"
+import product_5 from "../../../img/product_5.WebP"
+import product_6 from "../../../img/product_6.WebP"
+import product_7 from "../../../img/product_7.WebP"
+import product_8 from "../../../img/product_8.WebP"
+import product_9 from "../../../img/product_9.WebP"
+import product_10 from "../../../img/product_10.WebP"
+import product_11 from "../../../img/product_11.WebP"
 
 const Products = () =>{
     return(
         <>
             <article className="products-posicion">
-                <Card titulo={"Dahua Kit de Vigilancia XVR1B04-I-KIT"}>
+                <Card titulo={"Cámera Bullet 5MP Full-color HDCVI"}>
                     <ConteinerCenter>
                         <img
                             src={product_1}
@@ -28,11 +28,14 @@ const Products = () =>{
                             className="h-80 w-100"
                         />
                         <div className="card-descripcion">
-                            <p>Dahua Kit de Vigilancia XVR1B04-I-KIT de 4 Cámaras CCTV Bullet y 4 Canales, 4 Rollos de Cable,1 Fuente de Poder, 1 Pulpo</p>
+                            <p>
+                                HAC-HFW2509T-A-LED, Max 25 fps@5MP (16:9 video output), 120 dB true WDR, 3D NR, Imagenes de color 24/7, 
+                                Distancia de iluminación 20m, Super adaptado, Micrófono incorporado, Lente fija de 3,6 mm, CVI/CVBS/AHD/TVI switchable
+                            </p>
                         </div>
                     </ConteinerCenter>
                 </Card>
-                <Card titulo={"Dahua Kit de Vigilancia XVR1B04-I/4-HFW1209CN-LED"}>
+                <Card titulo={"Cámara Bullet 4K Smart Dual Light HDCVI Fixed-focal"}>
                     <ConteinerCenter>
                         <img
                             src={product_2}
@@ -40,13 +43,16 @@ const Products = () =>{
                             className="h-80 w-100"
                         />
                         <div className="card-descripcion">
-                            <p>Dahua Kit de Vigilancia XVR1B04-I/4-HFW1209CN-LED de 4 Cámaras CCTV Bullet y 4 Canales + 1 Canal IP, con Grabadora, Cables Siamés, Pulpo y Fuente de Poder</p>
+                            <p>
+                                HAC-HFW1801CM-IL-A, Max. 15 fps@4K.Max. 15 fps@4K., 120 dB true WDR, 3D NR, Smart Dual Light. 
+                                ,Distancia de iluminación 20m, Super adaptado,Micrófono incorporado, Lente fija de 3,6 mm, CVI/CVBS/AHD/TVI switchable
+                            </p>
                         </div>
                     </ConteinerCenter>
                 </Card>
             </article>
             <article className="products-posicion">
-                <Card titulo={"Dahua Kit de Vigilancia DH-KIT/XVR1B08-I/4-B1A21N-0360B"}>
+                <Card titulo={"Cámara Bullet 5MP HDCVI IR"}>
                     <ConteinerCenter>
                         <img
                             src={product_3}
@@ -54,11 +60,14 @@ const Products = () =>{
                             className="h-80 w-100"
                         />
                         <div className="card-descripcion">
-                            <p>Dahua Kit de Vigilancia DH-KIT/XVR1B08-I/4-B1A21N-0360B de 4 Cámaras CCTV Bullet con Grabadora de 8 Canales</p>
+                            <p>
+                                HAC-B3A51-Z, Max. 25 fps@5MP (16:9 video output), CVI/CVBS/AHD/TVI switchable, Lente motorizada de 2,7 mm a 12mm,
+                                Max. IR length 40 m; Smart IR,  IP67; DC12V
+                            </p>
                         </div>
                     </ConteinerCenter>
                 </Card>
-                <Card titulo={"Dahua Kit de Vigilancia XVR1B04-I/4-HFW1239CN-LED"}>
+                <Card titulo={"Camára Bullet 5MP IR HDCVI Fixed-focal"}>
                     <ConteinerCenter>
                         <img
                             src={product_4}
@@ -66,13 +75,16 @@ const Products = () =>{
                             className="h-80 w-100"
                         />
                         <div className="card-descripcion">
-                            <p>Dahua Kit de Vigilancia XVR1B04-I/4-HFW1239CN-LED de 4 Cámaras CCTV Bullet y 4 Canales, con Grabadora, Cables y Fuente de Poder</p>
+                            <p>
+                                HAC-B2A51-U, Max 25 fps@5MP (16:9 video output)., Iluminación Smart IR , Distancia de iluminación 30m, Lente fija de 3,6 mm,
+                                 CVI/CVBS/AHD/TVI switchable.
+                            </p>
                         </div>
                     </ConteinerCenter>
                 </Card>
             </article>
             <article className="products-posicion">
-                <Card titulo={"Hikvision Kit de Vigilancia ColorVu KH1080PL4EC"}>
+                <Card titulo={"Cámara Eyeball 5MP Starlight HDCVI POC IR"}>
                     <ConteinerCenter>
                         <img
                             src={product_5}
@@ -80,11 +92,14 @@ const Products = () =>{
                             className="h-80 w-100"
                         />
                         <div className="card-descripcion">
-                            <p>Hikvision Kit de Vigilancia ColorVu KH1080PL4EC de 4 Cámaras CCTV Domo y 4 Canales, con Grabadora, Transceptores, Conectores y Fuente de Poder</p>
+                            <p>
+                                HAC-HDW2501TLM-A-POC, Max 25 fps@5MP (16:9 video output),Starlight, 120 dB true WDR, 3D NR, CVI/CVBS/AHD/TVI switchable
+                                    Lente fija de 3,6 mm, Micrófono incorporado, Max. IR length 30 m, Smart IR
+                            </p>
                         </div>
                     </ConteinerCenter>
                 </Card>
-                <Card titulo={"Hikvision Kit de Vigilancia ColorVu KH1080PL4BC"}>
+                <Card titulo={"Cámara domo 5MP Starlight HDCVI IR"}>
                     <ConteinerCenter>
                         <img
                             src={product_6}
@@ -92,13 +107,16 @@ const Products = () =>{
                             className="h-80 w-100"
                         />
                         <div className="card-descripcion">
-                            <p>Hikvision Kit de Vigilancia ColorVu KH1080PL4BC de 4 Cámaras Bullet y 4 Canales, con Transceptores, Conectores y Fuente de Poder Profesional</p>
+                            <p>
+                                HAC-HDBW2501R-Z-POC, Max 25 fps@5MP (16:9 video output), Starlight, 120 dB true WDR, 3D NR, CVI/CVBS/AHD/TVI switchable
+                                Lente monotorizada de 2,7 mm a 13,5 mm, Max. IR length 30 m, Smart IR
+                            </p>
                         </div>
                     </ConteinerCenter>
                 </Card>
             </article>
             <article className="products-posicion">
-                <Card titulo={"Epcom Kit de Vigilancia KEVTX8T4BG/A"}>
+                <Card titulo={"Cámara PT 2MP Smart Dual Light Active Deterrence Network"}>
                     <ConteinerCenter>
                         <img
                             src={product_7}
@@ -106,11 +124,14 @@ const Products = () =>{
                             className="h-80 w-100"
                         />
                         <div className="card-descripcion">
-                            <p>Epcom Kit de Vigilancia KEVTX8T4BG/A de 4 Cámaras CCTV Bullet y 4 Canales, con Grabadora, Transceptores, Conectores y Fuente de Poder</p>
+                            <p>
+                                IPC-PT1239H-PV 1/2.8" 2Megapixel CMOS., Max. 25/30 fps@2MP., H.265 Encoding.,Detección de humanos y vehículos, protección perimetral, 
+                                Disuación activa, Luz dual inteligente,Comunicacón bidireccional, Controles sensillos desde la app.
+                            </p>
                         </div>
                     </ConteinerCenter>
                 </Card>
-                <Card titulo={"NUCKILY 2PCS Cámara de Seguridad Exterior WiFi"}>
+                <Card titulo={"Cámara PTZ SDT4E425-8P-GB-APV1"}>
                     <ConteinerCenter>
                         <img
                             src={product_8}
@@ -118,13 +139,16 @@ const Products = () =>{
                             className="h-80 w-100"
                         />
                         <div className="card-descripcion">
-                            <p>NUCKILY 2PCS Cámara de Seguridad Exterior WiFi, Cámara de Vigilancia Impermeable IP66, iCSee O Tris Home App, 2MP Pan&Tilt 360 Grados, Audio Visión Nocturna, Bidireccional, Detección de Movimiento</p>
+                            <p>
+                                SDT4E425-8P-GB-APV1, Canal de descripción general: emite uan imagen de empalme de gran angular de 180°, Detail channel: 1/2.8"4Megapixel STARVIS™ CMOS,
+                                Zoom óptico de 25x, Max. 25/30 fps@8M, distancia de IR de hasta 100 m, Seguimeinto automático 3.0, Seguimeinto intelegente, Protección perimetral, Disuación Inteligente, Luz dual inteligente
+                            </p>
                         </div>
                     </ConteinerCenter>
                 </Card>
             </article>
             <article className="products-posicion">
-                <Card titulo={"Cámara de Seguridad con Seguimiento automático"}>
+                <Card titulo={"Cámara mini bala fija 4K"}>
                     <ConteinerCenter>
                         <img
                             src={product_9}
@@ -132,11 +156,14 @@ const Products = () =>{
                             className="h-80 w-100"
                         />
                         <div className="card-descripcion">
-                            <p>4K 8MP Camara de Seguridad Exterior, Cámara de Seguridad con Seguimiento automático, Sirena, Visión Nocturna Color, Audio Bidireccional, IP66, poyo Alexa</p>
+                            <p>
+                                DS-2CE16U1T-ITF, Cámara bala de 8 MP,Tecnología infrarroja avanzada con una distancia IR de 30 m, Resistente al agua y al polvo (IP67)
+                                4 en 1 (4 señales conmutables TVI/AHD/CVI/CVBS), Máxima resolución 3840 (alto) × 2160 (vertical), Lente fija de 2,8 mm, 3,6 mm y 6 mm
+                            </p>
                         </div>
                     </ConteinerCenter>
                 </Card>
-                <Card titulo={"NUCKILY Cámara de Seguridad Interior"}>
+                <Card titulo={"Cámara bala varifocal motorizada 4K"}>
                     <ConteinerCenter>
                         <img
                             src={product_10}
@@ -144,23 +171,32 @@ const Products = () =>{
                             className="h-80 w-100"
                         />
                         <div className="card-descripcion">
-                            <p>NUCKILY Cámara de Seguridad Interior con Pantalla de 2.4 Pulgadas, 2MP Cámara WiFi, Audio Bidireccional, Detección de Movimiento, Visión Nocturna, Alarma, iCSee O Tris Home App, Compatible Alexa</p>
+                            <p>
+                                DS-2CE19U1T-AIT3ZF Cámara bala de 8 MP, La lente enfoca automáticamente al acercar o alejar el zoom., EXIR 2.0: tecnología infrarroja avanzada con una distancia IR de 80 m
+                                Resistente al agua y al polvo (IP67), 4 en 1 (4 señales conmutables TVI/AHD/CVI/CVBS), Lente varifocal motorizada de 2,7 mm a 13,5 mm
+                            </p>
                         </div>
                     </ConteinerCenter>
                 </Card>
             </article>
-            <Card titulo={"NUCKILY Cámara de Seguridad Interior"}>
-                <ConteinerCenter>
-                    <img
-                        src={product_11}
-                        alt="product_11"
-                        className="h-80 w-100"
-                    />
-                    <div className="card-descripcion">
-                        <p>NUCKILY Cámara de Seguridad Interior, Camara WiFi con Privacidad con un Clic, Visión Nocturna, Audio Bidireccional, Detección de Movimiento, 2K - 3MP, iCSee O Tris Home App, Compatible con Alexa</p>
-                    </div>
-                </ConteinerCenter>
-            </Card>
+            <article className="products-posicion">
+                <Card titulo={"Cámara de torreta fija 4K"}>
+                    <ConteinerCenter>
+                        <img
+                            src={product_11}
+                            alt="product_11"
+                            className="h-80 w-100"
+                        />
+                        <div className="card-descripcion">
+                            <p>
+                                DS-2CE78U1T-IT3F, Cámara de torreta de 8 MP, EXIR 2.0: tecnología infrarroja avanzada con una distancia IR de 60 m,
+                                 Resistente al agua y al polvo (IP67), 4 en 1 (4 señales conmutables TVI/AHD/CVI/CVBS), Lente fija de 2,8 mm, 3,6 mm, 6 mm, 8 mm y 12 mm
+                            </p>
+                        </div>
+                    </ConteinerCenter>
+                </Card>
+            </article>
+
         </>
     );
 }

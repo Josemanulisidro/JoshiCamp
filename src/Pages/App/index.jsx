@@ -1,4 +1,5 @@
 import {useRoutes, BrowserRouter } from 'react-router-dom'
+import { ParallaxProvider } from "react-scroll-parallax";
 import Home from '../Home'
 import Navbar from '../../Components/Navbar'
 import Footer from '../../Components/Footer'
@@ -44,9 +45,11 @@ const App = () =>{
 
     return(
         <BrowserRouter>
-            <Navbar />
-            <AppRoutes />
-            <Footer />
+            <ParallaxProvider>
+                <Navbar />
+                <AppRoutes />
+                <Footer />
+            </ParallaxProvider>
         </BrowserRouter>
     );
 }

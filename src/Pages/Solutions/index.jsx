@@ -33,7 +33,7 @@ const Solutions = () =>{
                 <div className="cont-inicio-solution txt-solution"><p>Nuestro equipo se encarga de todo: intalación configuración y soporte para que no te preocupes por nada</p></div>
             </div>
 
-            <Card titulo={"Instalaciones de camaras"}>
+            <Card titulo={"Instalaciones de cámaras"}>
                 <ConteinerCenter>
                     <article className="container-solutions-article">
                         <img

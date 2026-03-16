@@ -216,7 +216,7 @@
 
    @media (min-width: 425px) {
     .container-solution{
-      height: 25vh;
+      height: 40vh;
     }
     .cont-solution-titulo h1{
       font-size: 30px;
@@ -280,7 +280,7 @@
   }
 
     .container-solution{
-      height: 40vh;
+      height: 80vh;
     }
     .cont-solution-titulo{
       top: 50px;
@@ -289,11 +289,66 @@
       font-size: 50px;
     }
     .txt-solution{
-      top: 360px;
+      top: 340px;
     }
     .txt-solution p{
         font-size: 30px;
     }
+
+  .container-solution2{
+    height: 80vh;
+  }
+  .cont-solution-titulo2{
+    top: 60px;
+  }
+  .cont-solution-titulo2 h1{
+    font-size: 50px;
+  }
+  .txt-solution2{
+    top: 140px;
+}
+  .txt-solution2 p{
+    font-size: 40px;
+  }
+
+  .cont-solution-titulo3{
+    top: 300px;
+  }
+  .cont-solution-titulo3 h1{
+    font-size: 50px;
+  }
+  .txt-solution3{
+    top: 340px;
+}
+  .txt-solution3 p{
+    font-size: 40px;
+  }
+
+  .cont-solution-titulo4{
+    top: 510px;
+  }
+  .cont-solution-titulo4 h1{
+    font-size: 50px;
+  }
+  .txt-solution4{
+    top: 550px;
+  }
+  .txt-solution4 p{
+    font-size: 40px;
+  }
+
+  .cont-solution-titulo5{
+    top: 720px;
+  }
+  .cont-solution-titulo5 h1{
+    font-size: 50px;
+  }
+  .txt-solution5{
+    top: 800px;
+  }
+  .txt-solution5 p{
+    font-size: 40px;
+  }
 
 }
 
@@ -307,13 +362,13 @@
     height: 70vh;
   }
   .cont-solution-titulo{
-    top: 80px;
+    top: 60px;
   }
   .cont-solution-titulo h1{
     font-size: 60px;
   }
   .txt-solution{
-    top: 420px;
+    top: 490px;
   }
   .txt-solution p{
     font-size: 50px;
@@ -337,7 +392,7 @@
   }
   .txt-solution2{
     top: 200px;
-}
+  }
   .txt-solution2 p{
     font-size: 50px;
   }
@@ -350,50 +405,50 @@
   }
   .txt-solution3{
     top: 550px;
-}
+  }
   .txt-solution3 p{
     font-size: 50px;
   }
 
   .cont-solution-titulo4{
-    top: 800px;
+    top: 820px;
   }
   .cont-solution-titulo4 h1{
     font-size: 60px;
   }
   .txt-solution4{
-    top: 850px;
+    top: 890px;
   }
   .txt-solution4 p{
     font-size: 50px;
   }
 
   .cont-solution-titulo5{
-    top: 1040px;
+    top: 1090px;
   }
   .cont-solution-titulo5 h1{
     font-size: 60px;
   }
   .txt-solution5{
-    top: 1090px;
+    top: 1200px;
   }
   .txt-solution5 p{
     font-size: 50px;
   }
-  }
+}
 
   @media (min-width: 1440px) {
     .container-solution{
       height: 85vh;
     }
     .cont-solution-titulo{
-      top: 100px;
+      top: 80px;
     }
     .cont-solution-titulo h1{
       font-size: 80px;
     }
     .txt-solution{
-      top: 620px;
+      top: 710px;
     }
     .txt-solution p{
       font-size: 70px;
